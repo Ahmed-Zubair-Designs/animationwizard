@@ -43,7 +43,7 @@ window.SITE = {
   // ================= HOME PAGE =================
   home: {
     // Your showreel (big video at the top)
-    hero: "",
+    hero: "https://youtu.be/BjeuQ1os2VU",
 
     // "Recent work": 4 videos
     recent: [
