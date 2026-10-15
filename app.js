@@ -229,5 +229,39 @@
     render();
   }
 
+
+  /* ---------- 3D orbit of software icons ---------- */
+  var vis = $('#vis');
+  if (vis) {
+    var CX = 343, CY = 300, RX = 245, RY = 118, N = 5, PERIOD = 14000, PH = 0.35 * Math.PI;
+    var icons = Array.prototype.slice.call(document.querySelectorAll('.oi'));
+    var dashes = Array.prototype.slice.call(document.querySelectorAll('.rd'));
+    var L = 2 * Math.PI * Math.sqrt((RX * RX + RY * RY) / 2);
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var fit = function () { vis.style.setProperty('--k', Math.min(1, vis.clientWidth / 633).toFixed(4)); };
+    fit(); window.addEventListener('resize', fit);
+    var renderOrbit = function (t) {
+      icons.forEach(function (el, i) {
+        var th = (t / PERIOD) * 2 * Math.PI + i * 2 * Math.PI / N + PH, s = Math.sin(th), c = Math.cos(th), d = (s + 1) / 2;
+        var x = CX + RX * c, y = CY + RY * s, sc = 0.74 + 0.42 * d;
+        el.style.transform = 'translate(' + (x - 43).toFixed(1) + 'px,' + (y - 43).toFixed(1) + 'px) scale(' + sc.toFixed(3) + ')';
+        el.style.zIndex = s > 0 ? 4 : 1;
+        el.style.opacity = (0.6 + 0.4 * d).toFixed(2);
+        el.style.filter = s > 0 ? 'drop-shadow(0 10px 18px rgba(20,8,60,.55))' : 'blur(' + (0.8 * (1 - d)).toFixed(2) + 'px) brightness(.82)';
+      });
+      dashes.forEach(function (r) { r.style.strokeDashoffset = (-(t / PERIOD) * L).toFixed(1); });
+    };
+    window.awSetT = renderOrbit;
+    renderOrbit(2000);
+    if (!reduce) {
+      var run = true, t0 = performance.now() - 2000;
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (en) { run = en[0].isIntersecting; }).observe(vis);
+      }
+      var loop = function (now) { if (run) renderOrbit(now - t0); requestAnimationFrame(loop); };
+      requestAnimationFrame(loop);
+    }
+  }
+
   reveal();
 })();
