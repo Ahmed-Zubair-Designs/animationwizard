@@ -47,10 +47,10 @@ window.SITE = {
 
     // "Recent work": 4 videos
     recent: [
-      { category: "SaaS & B2B Explainers", link: "https://youtu.be/FJomY08T1H0?si=zmkaVqKub7QFHKvb" },
-      { category: "SaaS & B2B Explainers", link: "https://youtu.be/JVuAJcZUcX8?si=LfRef5y9WMg3Xyf_" },
-      { category: "Web & App Promos", link: "https://youtu.be/xImSMqxKf1Q?si=-bMJ6n1eWqf5WX1m" },
-      { category: "Character Animation", link: "https://youtu.be/khmMrMlp90w?si=XIJcXYll9NtYMsmf" },
+      { category: "SaaS & B2B Software", link: "https://youtu.be/Y5UX43H8iU8" },
+      { category: "SaaS & B2B Software", link: "https://youtu.be/l33YFxdREss" },
+      { category: "SaaS & B2B Software", link: "https://youtu.be/woZYvYuZhZI?si=VRSohhG4zpBR2op5" },
+      { category: "Character Animation", link: "https://youtu.be/0MI6KA8SQN0" },
     ],
 
     // "Work that I'm proud of": 4 videos
