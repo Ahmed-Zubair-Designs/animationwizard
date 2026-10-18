@@ -67,6 +67,7 @@ window.SITE = {
   portfolio: [
 
     // ---- SaaS & B2B Explainers ----
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/woZYvYuZhZI?si=ZaIOx7Greb6xpuET" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/FJomY08T1H0?si=i0_Zu2Lef9go1z9t" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/Y5UX43H8iU8?si=sUj9PVNH79iQ_Clq" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/JVuAJcZUcX8?si=VgDYpjBIowYgxTb0" },
@@ -90,24 +91,42 @@ window.SITE = {
     { category: "Product Launch & Promos", link: "" },
 
     // ---- Web & App Promos ----
-    { category: "Web & App Promos", link: "" },
-    { category: "Web & App Promos", link: "" },
-    { category: "Web & App Promos", link: "" },
+    { category: "Web & App Promos", link: "https://youtu.be/l33YFxdREss?si=eovo3dWLuWCgKcxh" },
+    { category: "Web & App Promos", link: "https://youtu.be/21fsmlS_2Jc?si=xDROilN5BqjNE16e" },
+    { category: "Web & App Promos", link: "https://youtu.be/xImSMqxKf1Q?si=6PImpXeEOmRUS-Fm" },
+    { category: "Web & App Promos", link: "https://youtu.be/V7VCO-IWYEw?si=sIyX8iDG9_HIUJXX" },
+    { category: "Web & App Promos", link: "https://youtu.be/Q37d3nRzISM?si=0Hjjagabh-0id4Uc" },
+    { category: "Web & App Promos", link: "https://youtu.be/9IyM38OhbJs?si=TqAG4gSZTjTy4Ups" },
+    { category: "Web & App Promos", link: "https://youtu.be/CH6VXUkdhBk?si=nCJoXDp71Z37NHu8" },
+    { category: "Web & App Promos", link: "https://youtu.be/kko5tfRXc6s?si=GnAONBtVKftRF04r" },
+    { category: "Web & App Promos", link: "https://youtu.be/fN5IHX-wzoY?si=nsKXC8l4qYntVz4d" },
 
     // ---- Character Animation ----
-    { category: "Character Animation", link: "" },
-    { category: "Character Animation", link: "" },
-    { category: "Character Animation", link: "" },
+    { category: "Character Animation", link: "https://youtu.be/khmMrMlp90w?si=9hAYWEY7bXNihqh5" },
+    { category: "Character Animation", link: "https://youtu.be/Em3c29fdCbY?si=R5G7M_1IvR7dt-ff" },
+    { category: "Character Animation", link: "https://youtu.be/H2Lu3h1thP8?si=9BYU4jfwE9h8jrur" },
+    { category: "Character Animation", link: "https://youtu.be/Ejs4ONAe7Rc?si=Fk4xbaVa4HnCdA7e" },
+    { category: "Character Animation", link: "https://youtu.be/6AZPLzILd3Q?si=QwMwy4jG7SYZMnT1" },
+    { category: "Character Animation", link: "https://youtu.be/pZuh7i0Z_KY?si=MkD4QCfEK1w1ZoLF" },
 
     // ---- Video Editing ----
-    { category: "Video Editing", link: "" },
+    { category: "Video Editing", link: "https://youtu.be/rFVJzg9gzAk?si=DZrbn_s5wQE2on-W" },
+    { category: "Video Editing", link: "https://youtu.be/8IyAjx6xcG8?si=p1Aki8BYgr0N8X6q" },
+    { category: "Video Editing", link: "https://youtu.be/l0BBeHiuiuM?si=e4gNZNU27x5w5W_a" },
+    { category: "Video Editing", link: "https://youtu.be/lqJNbQn6ENE?si=u0qFtCzh22-p2hUh" },
     { category: "Video Editing", link: "" },
     { category: "Video Editing", link: "" },
 
     // ---- Verticals ----
+    { category: "Verticals", link: "https://youtube.com/shorts/2N_M9mBPQzk?si=7Pq8x8nA1Mmwc60x" },
+    { category: "Verticals", link: "https://youtube.com/shorts/b-azqPeiYe0?si=nZoQ-kxLkYZwkxfC" },
+    { category: "Verticals", link: "https://youtube.com/shorts/gge2-nMxhJ8?si=EkE7XvL_v80HG12L" },
     { category: "Verticals", link: "" },
     { category: "Verticals", link: "" },
+    { category: "Verticals", link: "" }, 
     { category: "Verticals", link: "" },
+    { category: "Verticals", link: "" },
+    { category: "Verticals", link: "" }, 
 
     // ---- Talking Head Videos ----
     { category: "Talking Head Videos", link: "" },
