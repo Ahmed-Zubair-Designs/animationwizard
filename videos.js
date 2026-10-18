@@ -50,7 +50,7 @@ window.SITE = {
       { category: "SaaS & B2B Software", link: "https://youtu.be/Y5UX43H8iU8" },
       { category: "SaaS & B2B Software", link: "https://youtu.be/l33YFxdREss" },
       { category: "SaaS & B2B Software", link: "https://youtu.be/woZYvYuZhZI?si=VRSohhG4zpBR2op5" },
-      { category: "Character Animation", link: "https://youtu.be/0MI6KA8SQN0" },
+      { category: "SaaS & B2B Software", link: "https://youtu.be/21fsmlS_2Jc" },
     ],
 
     // "Work that I'm proud of": 4 videos
@@ -67,9 +67,22 @@ window.SITE = {
   portfolio: [
 
     // ---- SaaS & B2B Explainers ----
-    { category: "SaaS & B2B Explainers", link: "" },
-    { category: "SaaS & B2B Explainers", link: "" },
-    { category: "SaaS & B2B Explainers", link: "" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/FJomY08T1H0?si=i0_Zu2Lef9go1z9t" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/Y5UX43H8iU8?si=sUj9PVNH79iQ_Clq" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/JVuAJcZUcX8?si=VgDYpjBIowYgxTb0" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/Yov_-27PXCs?si=HPbIzsJjQY6b6kku" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/LsafNhUkkgQ?si=0ySbXME4yAm7_wfy" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/RbFkbDkwNvY?si=rFzqjlOezKuXonqb" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/hSwf22DdWL4?si=whBomnWteaDC56vh" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/9If0ISM7DY0?si=N4bfbREP4xShxm47" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/wwjFB1KpOwU?si=9oKBrfnxa4AnhTSJ" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/gXNX94spkck?si=hJj5zWYS3EuDXO4y" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/qIY7F_38AKc?si=vIjE-G-73TsPZTx0" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/IL7YXCTqgZk?si=4CZc7vuNBbkfbXL3" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/HRg7nB8S_Sc?si=lnbf6K2k1cdOzmun" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/vMZUi7nftk0?si=29i2Pkm1JVuEEE5M" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/0MI6KA8SQN0?si=iTzzULIEiJW1Aovq" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/E_Ko7lY297w?si=B3NIl7CJrunEPksS" },
 
     // ---- Product Launch & Promos ----
     { category: "Product Launch & Promos", link: "" },
