@@ -67,8 +67,10 @@ window.SITE = {
   portfolio: [
 
     // ---- SaaS & B2B Explainers ----
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/yKsfkDb_2i8" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/woZYvYuZhZI?si=ZaIOx7Greb6xpuET" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/FJomY08T1H0?si=i0_Zu2Lef9go1z9t" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/IaKkPIdu4Lg" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/Y5UX43H8iU8?si=sUj9PVNH79iQ_Clq" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/JVuAJcZUcX8?si=VgDYpjBIowYgxTb0" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/Yov_-27PXCs?si=HPbIzsJjQY6b6kku" },
