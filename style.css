@@ -196,7 +196,8 @@ h2 .sw{width:13px;height:13px;border-radius:2px;transform:rotate(45deg);box-shad
 .cp svg{width:15px;height:15px}
 .cp:hover,.cp:focus-visible{background:var(--vio);color:#fff;border-color:var(--vio)}
 .cp.ok{background:#2BD38A;color:#fff;border-color:#2BD38A}
-.gw{overflow:hidden;padding:4px;margin:-4px}
+.gw{padding:4px;margin:-4px}
+.rs.anim .gw,.rs.closed .gw{overflow:hidden}
 .gw>div{transition:opacity .35s ease,transform .45s cubic-bezier(.22,1,.36,1)}
 .rs.closed .gw{height:0;padding-top:0;padding-bottom:0}
 .rs.closed .gw>div{opacity:0;transform:translateY(-14px)}
