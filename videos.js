@@ -100,9 +100,14 @@ window.SITE = {
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/E_Ko7lY297w?si=B3NIl7CJrunEPksS" },
 
     // ---- Website Explainers ----
-    { category: "Website Explainers", link: "" },   // dummy card: paste a YouTube link between the quotes
-    { category: "Website Explainers", link: "" },   // dummy card: paste a YouTube link between the quotes
-    { category: "Website Explainers", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Website Explainers", link: "https://youtu.be/U3ksSRUZtR4?si=VRELfdvpVT8lgT22" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Website Explainers", link: "https://youtu.be/e0pkvUCUNFo?si=PjQgUpHqUpGuvrCt" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Website Explainers", link: "https://youtu.be/jwgSV5KlTAs?si=THi-h9obiWwiFwa3" },
+    { category: "Website Explainers", link: "https://youtu.be/AHTw3iVsz_c?si=gIb5X911R9FyFsbE" },// dummy card: paste a YouTube link between the quotes
+    { category: "Website Explainers", link: "https://youtu.be/NDNu4dlN6no?si=G9cVE1Ff54m1ZMAN" },// dummy card: paste a YouTube link between the quotes
+    { category: "Website Explainers", link: "https://youtu.be/mUuLPCTaP6E?si=xvt1YC4FZ4N66Sib" },// dummy card: paste a YouTube link between the quotes
+    { category: "Website Explainers", link: "https://youtu.be/Kc-HZGP5dM4?si=8mFwODzAYf0Xnbpj" },// dummy card: paste a YouTube link between the quotes
+    { category: "Website Explainers", link: "https://youtu.be/dRZC9NzM20I?si=KINj9zsHNgd6cv2W" },// dummy card: paste a YouTube link between the quotes
 
     // ---- Promos ----
     { category: "Promos", link: "https://youtu.be/nsvFRLw8c4g" },
@@ -130,23 +135,35 @@ window.SITE = {
     { category: "Video Editing", link: "https://youtu.be/OSVtImiYZLA" },
     { category: "Video Editing", link: "https://youtu.be/lqJNbQn6ENE?si=u0qFtCzh22-p2hUh" },
     { category: "Video Editing", link: "https://youtu.be/8IyAjx6xcG8?si=p1Aki8BYgr0N8X6q" },
+    { category: "Video Editing", link: "https://youtu.be/Cv2X0yZvmho" },
     { category: "Video Editing", link: "https://youtu.be/l0BBeHiuiuM?si=e4gNZNU27x5w5W_a" },
 
     // ---- Verticals ----
     { category: "Verticals", link: "https://youtube.com/shorts/2N_M9mBPQzk?si=7Pq8x8nA1Mmwc60x" },
     { category: "Verticals", link: "https://youtube.com/shorts/b-azqPeiYe0?si=nZoQ-kxLkYZwkxfC" },
     { category: "Verticals", link: "https://youtube.com/shorts/gge2-nMxhJ8?si=EkE7XvL_v80HG12L" },
+    { category: "Verticals", link: "https://youtu.be/pU07RhJ-8X8?si=K0TPzKDymRyGzIr4" },   // dummy card: paste a YouTube link between the quotes
     { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
     { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
     { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
     { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
     { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
     { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Verticals", link: "https://youtube.com/shorts/gge2-nMxhJ8?si=EkE7XvL_v80HG12L" },   // dummy card: paste a YouTube link between the quotes
+
 
     // ---- Talking Head Videos ----
-    { category: "Talking Head Videos", link: "" },   // dummy card: paste a YouTube link between the quotes
-    { category: "Talking Head Videos", link: "" },   // dummy card: paste a YouTube link between the quotes
-    { category: "Talking Head Videos", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Talking Head Videos", link: "https://youtube.com/shorts/kBWsn5MIV4w?si=bipt4AIEZpIMaLQs" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Talking Head Videos", link: "https://youtube.com/shorts/rBC-1W0_yng?si=AA08J8lZjtnyvkLx" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Talking Head Videos", link: "https://youtube.com/shorts/8Jio5mDHsGw?si=h8DCNFPTChcfJaBb" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Talking Head Videos", link: "https://youtube.com/shorts/_Q5Gkv6aOIM?si=zvmupOd9AsG3mx2E" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Talking Head Videos", link: "https://youtube.com/shorts/8DcIewe_QFc?si=irR69-_ny3_VrO1i" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Talking Head Videos", link: "https://youtube.com/shorts/6Qt0D8L_aH8?si=M8X4fm4lpXIVRTTs" },   // dummy card: paste a YouTube link between the quotes
+    
   ],
 
   // ================= PRICING (home page) =================
