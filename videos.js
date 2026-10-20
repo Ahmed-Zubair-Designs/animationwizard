@@ -67,11 +67,14 @@ window.SITE = {
   portfolio: [
 
     // ---- SaaS & B2B Explainers ----
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/DvXf8TZCTUY" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/uvb6TsDVpjw" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/yKsfkDb_2i8" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/woZYvYuZhZI?si=ZaIOx7Greb6xpuET" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/FJomY08T1H0?si=i0_Zu2Lef9go1z9t" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/IaKkPIdu4Lg" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/Y5UX43H8iU8?si=sUj9PVNH79iQ_Clq" },
+    { category: "SaaS & B2B Explainers", link: "https://youtu.be/-nhXl9C5dUw" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/JVuAJcZUcX8?si=VgDYpjBIowYgxTb0" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/Yov_-27PXCs?si=HPbIzsJjQY6b6kku" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/LsafNhUkkgQ?si=0ySbXME4yAm7_wfy" },
@@ -93,6 +96,7 @@ window.SITE = {
     { category: "Product Launch & Promos", link: "" },
 
     // ---- Web & App Promos ----
+    { category: "Web & App Promos", link: "https://youtu.be/nsvFRLw8c4g" },
     { category: "Web & App Promos", link: "https://youtu.be/l33YFxdREss?si=eovo3dWLuWCgKcxh" },
     { category: "Web & App Promos", link: "https://youtu.be/21fsmlS_2Jc?si=xDROilN5BqjNE16e" },
     { category: "Web & App Promos", link: "https://youtu.be/xImSMqxKf1Q?si=6PImpXeEOmRUS-Fm" },
@@ -113,11 +117,11 @@ window.SITE = {
 
     // ---- Video Editing ----
     { category: "Video Editing", link: "https://youtu.be/rFVJzg9gzAk?si=DZrbn_s5wQE2on-W" },
+    { category: "Video Editing", link: "https://youtu.be/0rRXUv9PFeE" },
+    { category: "Video Editing", link: "https://youtu.be/OSVtImiYZLA" },
+    { category: "Video Editing", link: "https://youtu.be/lqJNbQn6ENE?si=u0qFtCzh22-p2hUh" },
     { category: "Video Editing", link: "https://youtu.be/8IyAjx6xcG8?si=p1Aki8BYgr0N8X6q" },
     { category: "Video Editing", link: "https://youtu.be/l0BBeHiuiuM?si=e4gNZNU27x5w5W_a" },
-    { category: "Video Editing", link: "https://youtu.be/lqJNbQn6ENE?si=u0qFtCzh22-p2hUh" },
-    { category: "Video Editing", link: "" },
-    { category: "Video Editing", link: "" },
 
     // ---- Verticals ----
     { category: "Verticals", link: "https://youtube.com/shorts/2N_M9mBPQzk?si=7Pq8x8nA1Mmwc60x" },
