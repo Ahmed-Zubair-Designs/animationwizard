@@ -307,3 +307,22 @@ a[aria-disabled="true"]{opacity:.55}
 .who small{display:block;font-weight:400;font-size:12px;color:var(--mut)}
 .bub{margin:16px 0 0 auto;max-width:94%;background:#DCF8C6;border-radius:16px 16px 4px 16px;padding:12px 14px;font-size:13.5px;line-height:1.55;color:#1b2a1b;white-space:pre-wrap;word-break:break-word}
 @media (max-width:860px){.qbox{grid-template-columns:minmax(0,1fr)}.qpv{display:none}.qf{padding:28px 22px}.q2{grid-template-columns:minmax(0,1fr)}}
+
+/* ---------- wide landscape hero on desktop ---------- */
+.wrap.wide{max-width:1680px}
+@media (min-width:1001px){
+  .hero{height:clamp(600px,calc(100vh - 120px),900px);grid-template-columns:minmax(0,1fr) minmax(0,1.05fr)}
+  .hero .tx{padding:clamp(40px,4vw,80px) 0 clamp(40px,4vw,80px) clamp(44px,5vw,96px)}
+  .hero h1{font-size:clamp(44px,4.4vw,86px)}
+  .hero .bio{font-size:clamp(16px,1.2vw,20px);max-width:580px}
+  .hero .sk{max-width:600px}
+  .vis{height:100%;align-self:stretch}
+  .prop{right:clamp(24px,2.4vw,44px);top:clamp(20px,2.4vw,40px)}
+}
+/* ---------- dummy cards for empty video slots ---------- */
+.card.ph{cursor:default}
+.card.ph .th .art:after{display:none}
+.card.ph .th .pp{opacity:.95;transform:none;background:rgba(255,255,255,.6)}
+.card.ph .th .pp svg{color:var(--ink2)}
+.card.ph:hover{transform:none}
+.card.ph h3{color:var(--mut)}

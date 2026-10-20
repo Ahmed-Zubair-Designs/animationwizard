@@ -42,27 +42,32 @@ window.SITE = {
   verticalCategories: ["Verticals"],
 
   // ================= HOME PAGE =================
+  // These videos are separate from the Portfolio list below.
+  // To change one, replace the link between the quotes. Keep the quotes and the comma.
   home: {
-    // Your showreel (big video at the top)
+
+    // ---- SHOWREEL (the big video) ----
     hero: "https://youtu.be/BjeuQ1os2VU",
 
-    // "Recent work": 4 videos
+    // ---- RECENT WORK: 4 landscape videos (1920x1080) ----
     recent: [
-      { category: "SaaS & B2B Explainers", link: "https://youtu.be/Y5UX43H8iU8" },
-      { category: "SaaS & B2B Explainers", link: "https://youtu.be/l33YFxdREss" },
-      { category: "SaaS & B2B Explainers", link: "https://youtu.be/woZYvYuZhZI?si=VRSohhG4zpBR2op5" },
-      { category: "SaaS & B2B Explainers", link: "https://youtu.be/21fsmlS_2Jc" },
+      /* Recent 1 */ { category: "SaaS & B2B Explainers", link: "https://youtu.be/Y5UX43H8iU8" },
+      /* Recent 2 */ { category: "SaaS & B2B Explainers", link: "https://youtu.be/l33YFxdREss" },
+      /* Recent 3 */ { category: "SaaS & B2B Explainers", link: "https://youtu.be/woZYvYuZhZI?si=VRSohhG4zpBR2op5" },
+      /* Recent 4 */ { category: "SaaS & B2B Explainers", link: "https://youtu.be/21fsmlS_2Jc" },
     ],
 
-    // "Work I'm proud of": the tall reel on the left (use a YouTube Shorts link)
-    proudReel: { category: "Verticals", link: "https://youtube.com/shorts/2N_M9mBPQzk?si=7Pq8x8nA1Mmwc60x" },
+    // ---- WORK I'M PROUD OF: 5 videos ----
+    // Proud reel: the tall video on the left (1080x1920). Use a YouTube Shorts link.
+    proudReel: /* Proud reel */ { category: "Verticals", link: "https://youtube.com/shorts/2N_M9mBPQzk?si=7Pq8x8nA1Mmwc60x" },
 
-    // "Work I'm proud of": the 4 landscape videos on the right
+    // Proud 1 to 4: the landscape videos on the right (1920x1080).
+    // 1 = top left, 2 = top right, 3 = bottom left, 4 = bottom right.
     proud: [
-      { category: "SaaS & B2B Explainers", link: "https://youtu.be/FJomY08T1H0?si=zmkaVqKub7QFHKvb" },
-      { category: "Website Explainers", link: "https://youtu.be/JVuAJcZUcX8?si=LfRef5y9WMg3Xyf_" },
-      { category: "Promos", link: "https://youtu.be/xImSMqxKf1Q?si=-bMJ6n1eWqf5WX1m" },
-      { category: "Character Explainers", link: "https://youtu.be/khmMrMlp90w?si=XIJcXYll9NtYMsmf" },
+      /* Proud 1 */ { category: "SaaS & B2B Explainers", link: "https://youtu.be/FJomY08T1H0?si=zmkaVqKub7QFHKvb" },
+      /* Proud 2 */ { category: "Website Explainers", link: "https://youtu.be/JVuAJcZUcX8?si=LfRef5y9WMg3Xyf_" },
+      /* Proud 3 */ { category: "Promos", link: "https://youtu.be/xImSMqxKf1Q?si=-bMJ6n1eWqf5WX1m" },
+      /* Proud 4 */ { category: "Character Explainers", link: "https://youtu.be/khmMrMlp90w?si=XIJcXYll9NtYMsmf" },
     ]
   },
 
@@ -95,9 +100,9 @@ window.SITE = {
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/E_Ko7lY297w?si=B3NIl7CJrunEPksS" },
 
     // ---- Website Explainers ----
-    { category: "Website Explainers", link: "" },
-    { category: "Website Explainers", link: "" },
-    { category: "Website Explainers", link: "" },
+    { category: "Website Explainers", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Website Explainers", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Website Explainers", link: "" },   // dummy card: paste a YouTube link between the quotes
 
     // ---- Promos ----
     { category: "Promos", link: "https://youtu.be/nsvFRLw8c4g" },
@@ -131,17 +136,17 @@ window.SITE = {
     { category: "Verticals", link: "https://youtube.com/shorts/2N_M9mBPQzk?si=7Pq8x8nA1Mmwc60x" },
     { category: "Verticals", link: "https://youtube.com/shorts/b-azqPeiYe0?si=nZoQ-kxLkYZwkxfC" },
     { category: "Verticals", link: "https://youtube.com/shorts/gge2-nMxhJ8?si=EkE7XvL_v80HG12L" },
-    { category: "Verticals", link: "" },
-    { category: "Verticals", link: "" },
-    { category: "Verticals", link: "" }, 
-    { category: "Verticals", link: "" },
-    { category: "Verticals", link: "" },
-    { category: "Verticals", link: "" }, 
+    { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Verticals", link: "" },   // dummy card: paste a YouTube link between the quotes
 
     // ---- Talking Head Videos ----
-    { category: "Talking Head Videos", link: "" },
-    { category: "Talking Head Videos", link: "" },
-    { category: "Talking Head Videos", link: "" },
+    { category: "Talking Head Videos", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Talking Head Videos", link: "" },   // dummy card: paste a YouTube link between the quotes
+    { category: "Talking Head Videos", link: "" },   // dummy card: paste a YouTube link between the quotes
   ],
 
   // ================= PRICING (home page) =================
