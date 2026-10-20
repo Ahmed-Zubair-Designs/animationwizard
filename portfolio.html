@@ -2,39 +2,41 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Portfolio | Animation Wizard</title>
-<meta name="description" content="Full portfolio by Animation Wizard: SaaS and B2B explainers, product launch promos, web and app promos, character animation, video editing, verticals and talking head videos.">
-<meta name="theme-color" content="#0C0922">
+<meta name="description" content="Portfolio by Animation Wizard: SaaS and B2B explainers, website explainers, promos, character explainers, video editing, verticals and talking head videos.">
+<meta name="theme-color" content="#EDEFF7">
 <meta property="og:title" content="Portfolio | Animation Wizard">
 <link rel="icon" href="favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400..700&family=JetBrains+Mono:wght@400..600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<script>document.documentElement.classList.add('js')</script>
 </head>
-<body>
-<div class="glow g1"></div><div class="glow g2"></div>
+<body class="portfolio">
+<div class="field">
+  <i style="width:760px;height:760px;background:#C4B4FF;left:-200px;top:-120px"></i>
+  <i style="width:620px;height:620px;background:#FFC9B0;right:-160px;top:400px"></i>
+  <i style="width:700px;height:700px;background:#A6DCFF;left:10%;top:1700px"></i>
+  <i style="width:600px;height:600px;background:#BDF2DC;right:-100px;top:2800px"></i>
+  <i style="width:800px;height:800px;background:#D2C4FF;left:-260px;top:3800px"></i>
+</div>
 
-<header class="wrap top">
-  <a class="logo" href="index.html"><img src="logo.png" alt="Animation Wizard"></a>
-  <nav>
-    <a href="index.html">Home</a>
-    <a class="on" href="portfolio.html">Portfolio</a>
-    <a class="box" data-link="whatsapp" href="#">Book a call</a>
-  </nav>
-</header>
+<div class="wrap nav"><div class="in glass">
+  <a href="index.html"><img src="logo-ink.png" alt="Animation Wizard"></a>
+  <div class="r"><a class="pg" href="index.html">Home</a><a class="pg on" href="portfolio.html">Portfolio</a><span class="sep"></span><div class="socs" id="navsoc"></div></div>
+</div></div>
 
 <main class="wrap">
-  <div class="ph"><h1 class="hd">Portfolio</h1></div>
+  <div class="pfh"><h1>Portfolio</h1></div>
   <div class="lay" id="lay">
-    <aside class="side"><h4>Categories</h4><div id="side"></div></aside>
+    <aside class="side glass" aria-label="Categories">
+      <div class="sideh mono"><span>Project</span><span id="pfCount"></span></div>
+      <nav id="side"></nav>
+      <button class="cta" data-quote>Get a quote <span data-icon="arrow"></span></button>
+    </aside>
     <div class="right" id="right"></div>
   </div>
 </main>
-
-<footer><span>Animation Wizard</span><span>animationwizard.site</span></footer>
 
 <script src="videos.js"></script>
 <script src="app.js"></script>

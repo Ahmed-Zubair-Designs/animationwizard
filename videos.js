@@ -10,7 +10,8 @@
    - The order of the lines is the order on the website (first line = first video).
    - Titles and thumbnails come from YouTube automatically.
    - Want your own title? Add it:   { category: "Verticals", link: "...", title: "My title" },
-   - A line with an empty link ("") shows a placeholder card. Delete the line to remove it.
+   - Want the length badge on a card? Add it: { category: "Promos", link: "...", duration: "1:24" },
+   - A line with an empty link ("") is ignored, so you can keep spare lines ready to fill in.
    - YouTube links can be youtu.be/..., youtube.com/watch?v=..., or youtube.com/shorts/...
    - Videos must be Public or Unlisted on YouTube (not Private).
    ===================================================================== */
@@ -29,9 +30,9 @@ window.SITE = {
   // You can rename them, reorder them, or add new ones. Videos use these exact names.
   categories: [
     "SaaS & B2B Explainers",
-    "Product Launch & Promos",
-    "Web & App Promos",
-    "Character Animation",
+    "Website Explainers",
+    "Promos",
+    "Character Explainers",
     "Video Editing",
     "Verticals",
     "Talking Head Videos",
@@ -47,18 +48,21 @@ window.SITE = {
 
     // "Recent work": 4 videos
     recent: [
-      { category: "SaaS & B2B Software", link: "https://youtu.be/Y5UX43H8iU8" },
-      { category: "SaaS & B2B Software", link: "https://youtu.be/l33YFxdREss" },
-      { category: "SaaS & B2B Software", link: "https://youtu.be/woZYvYuZhZI?si=VRSohhG4zpBR2op5" },
-      { category: "SaaS & B2B Software", link: "https://youtu.be/21fsmlS_2Jc" },
+      { category: "SaaS & B2B Explainers", link: "https://youtu.be/Y5UX43H8iU8" },
+      { category: "SaaS & B2B Explainers", link: "https://youtu.be/l33YFxdREss" },
+      { category: "SaaS & B2B Explainers", link: "https://youtu.be/woZYvYuZhZI?si=VRSohhG4zpBR2op5" },
+      { category: "SaaS & B2B Explainers", link: "https://youtu.be/21fsmlS_2Jc" },
     ],
 
-    // "Work that I'm proud of": 4 videos
+    // "Work I'm proud of": the tall reel on the left (use a YouTube Shorts link)
+    proudReel: { category: "Verticals", link: "https://youtube.com/shorts/2N_M9mBPQzk?si=7Pq8x8nA1Mmwc60x" },
+
+    // "Work I'm proud of": the 4 landscape videos on the right
     proud: [
       { category: "SaaS & B2B Explainers", link: "https://youtu.be/FJomY08T1H0?si=zmkaVqKub7QFHKvb" },
-      { category: "Product Launch & Promos", link: "https://youtu.be/JVuAJcZUcX8?si=LfRef5y9WMg3Xyf_" },
-      { category: "Web & App Promos", link: "https://youtu.be/xImSMqxKf1Q?si=-bMJ6n1eWqf5WX1m" },
-      { category: "Character Animation", link: "https://youtu.be/khmMrMlp90w?si=XIJcXYll9NtYMsmf" },
+      { category: "Website Explainers", link: "https://youtu.be/JVuAJcZUcX8?si=LfRef5y9WMg3Xyf_" },
+      { category: "Promos", link: "https://youtu.be/xImSMqxKf1Q?si=-bMJ6n1eWqf5WX1m" },
+      { category: "Character Explainers", link: "https://youtu.be/khmMrMlp90w?si=XIJcXYll9NtYMsmf" },
     ]
   },
 
@@ -90,30 +94,30 @@ window.SITE = {
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/0MI6KA8SQN0?si=iTzzULIEiJW1Aovq" },
     { category: "SaaS & B2B Explainers", link: "https://youtu.be/E_Ko7lY297w?si=B3NIl7CJrunEPksS" },
 
-    // ---- Product Launch & Promos ----
-    { category: "Product Launch & Promos", link: "" },
-    { category: "Product Launch & Promos", link: "" },
-    { category: "Product Launch & Promos", link: "" },
+    // ---- Website Explainers ----
+    { category: "Website Explainers", link: "" },
+    { category: "Website Explainers", link: "" },
+    { category: "Website Explainers", link: "" },
 
-    // ---- Web & App Promos ----
-    { category: "Web & App Promos", link: "https://youtu.be/nsvFRLw8c4g" },
-    { category: "Web & App Promos", link: "https://youtu.be/l33YFxdREss?si=eovo3dWLuWCgKcxh" },
-    { category: "Web & App Promos", link: "https://youtu.be/21fsmlS_2Jc?si=xDROilN5BqjNE16e" },
-    { category: "Web & App Promos", link: "https://youtu.be/xImSMqxKf1Q?si=6PImpXeEOmRUS-Fm" },
-    { category: "Web & App Promos", link: "https://youtu.be/V7VCO-IWYEw?si=sIyX8iDG9_HIUJXX" },
-    { category: "Web & App Promos", link: "https://youtu.be/Q37d3nRzISM?si=0Hjjagabh-0id4Uc" },
-    { category: "Web & App Promos", link: "https://youtu.be/9IyM38OhbJs?si=TqAG4gSZTjTy4Ups" },
-    { category: "Web & App Promos", link: "https://youtu.be/CH6VXUkdhBk?si=nCJoXDp71Z37NHu8" },
-    { category: "Web & App Promos", link: "https://youtu.be/kko5tfRXc6s?si=GnAONBtVKftRF04r" },
-    { category: "Web & App Promos", link: "https://youtu.be/fN5IHX-wzoY?si=nsKXC8l4qYntVz4d" },
+    // ---- Promos ----
+    { category: "Promos", link: "https://youtu.be/nsvFRLw8c4g" },
+    { category: "Promos", link: "https://youtu.be/l33YFxdREss?si=eovo3dWLuWCgKcxh" },
+    { category: "Promos", link: "https://youtu.be/21fsmlS_2Jc?si=xDROilN5BqjNE16e" },
+    { category: "Promos", link: "https://youtu.be/xImSMqxKf1Q?si=6PImpXeEOmRUS-Fm" },
+    { category: "Promos", link: "https://youtu.be/V7VCO-IWYEw?si=sIyX8iDG9_HIUJXX" },
+    { category: "Promos", link: "https://youtu.be/Q37d3nRzISM?si=0Hjjagabh-0id4Uc" },
+    { category: "Promos", link: "https://youtu.be/9IyM38OhbJs?si=TqAG4gSZTjTy4Ups" },
+    { category: "Promos", link: "https://youtu.be/CH6VXUkdhBk?si=nCJoXDp71Z37NHu8" },
+    { category: "Promos", link: "https://youtu.be/kko5tfRXc6s?si=GnAONBtVKftRF04r" },
+    { category: "Promos", link: "https://youtu.be/fN5IHX-wzoY?si=nsKXC8l4qYntVz4d" },
 
-    // ---- Character Animation ----
-    { category: "Character Animation", link: "https://youtu.be/khmMrMlp90w?si=9hAYWEY7bXNihqh5" },
-    { category: "Character Animation", link: "https://youtu.be/Em3c29fdCbY?si=R5G7M_1IvR7dt-ff" },
-    { category: "Character Animation", link: "https://youtu.be/H2Lu3h1thP8?si=9BYU4jfwE9h8jrur" },
-    { category: "Character Animation", link: "https://youtu.be/Ejs4ONAe7Rc?si=Fk4xbaVa4HnCdA7e" },
-    { category: "Character Animation", link: "https://youtu.be/6AZPLzILd3Q?si=QwMwy4jG7SYZMnT1" },
-    { category: "Character Animation", link: "https://youtu.be/pZuh7i0Z_KY?si=MkD4QCfEK1w1ZoLF" },
+    // ---- Character Explainers ----
+    { category: "Character Explainers", link: "https://youtu.be/khmMrMlp90w?si=9hAYWEY7bXNihqh5" },
+    { category: "Character Explainers", link: "https://youtu.be/Em3c29fdCbY?si=R5G7M_1IvR7dt-ff" },
+    { category: "Character Explainers", link: "https://youtu.be/H2Lu3h1thP8?si=9BYU4jfwE9h8jrur" },
+    { category: "Character Explainers", link: "https://youtu.be/Ejs4ONAe7Rc?si=Fk4xbaVa4HnCdA7e" },
+    { category: "Character Explainers", link: "https://youtu.be/6AZPLzILd3Q?si=QwMwy4jG7SYZMnT1" },
+    { category: "Character Explainers", link: "https://youtu.be/pZuh7i0Z_KY?si=MkD4QCfEK1w1ZoLF" },
 
     // ---- Video Editing ----
     { category: "Video Editing", link: "https://youtu.be/rFVJzg9gzAk?si=DZrbn_s5wQE2on-W" },
@@ -138,5 +142,18 @@ window.SITE = {
     { category: "Talking Head Videos", link: "" },
     { category: "Talking Head Videos", link: "" },
     { category: "Talking Head Videos", link: "" },
+  ],
+
+  // ================= PRICING (home page) =================
+  // "from" is the starting price in dollars. "includes" are the ticks on each row.
+  // The name must match a category above, so clicking the row opens those videos.
+  pricing: [
+    { name: "SaaS & B2B Explainers", from: 300, popular: true, includes: ["60 to 90 seconds", "Script and storyboard", "Voiceover and music", "UI animation from your screens", "4 rounds of revisions"] },
+    { name: "Website Explainers",    from: 250, includes: ["60 to 90 seconds", "Script and storyboard", "Voiceover and music", "UI animation from your screens", "3 rounds of revisions"] },
+    { name: "Promos",                from: 200, includes: ["30 to 60 seconds", "UI animation from your screens", "Device mockups", "4 rounds of revisions"] },
+    { name: "Character Explainers",  from: 400, includes: ["Custom character design", "Up to 80 seconds", "4 rounds of revisions"] },
+    { name: "Video Editing",         from: 250, includes: ["4 to 5 minutes", "Cuts, colour and audio", "Titles and lower thirds", "B-roll and animated B-roll", "3 rounds of revisions"] },
+    { name: "Verticals",             from: 70,  includes: ["Reels, Shorts, TikTok", "Captions and motion text", "60 to 80 seconds", "2 rounds of revisions"] },
+    { name: "Talking Head Videos",   from: 50,  includes: ["60 to 90 seconds", "Captions and B-roll", "Zooms and graphics", "2 rounds of revisions"] }
   ]
 };
